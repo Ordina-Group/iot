@@ -1,0 +1,22 @@
+= Java on the Raspberry Pi
+CC Internet of Things;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+[[Random]]
+= Random
+== Request
+
+include::{snippets}/random/request-parameters.adoc[]
+
+include::{snippets}/random/http-request.adoc[]
+
+== Response
+
+include::{snippets}/random/response-fields.adoc[]
+
+include::{snippets}/random/http-response.adoc[]
