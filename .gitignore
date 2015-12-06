@@ -14,5 +14,6 @@ hs_err_pid*
 # IntelliJ
 .idea/
 *.iml
-Java-on-the-Raspberry-Pi/.gradle
-Java-on-the-Raspberry-Pi/build
+
+.gradle/
+build/
