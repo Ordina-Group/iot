@@ -14,12 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class RandomServices {
 
     @RequestMapping(value = "/random", method = RequestMethod.GET)
-    public String random() {
-        return "Please use POST with the following parameters: minimum:Integer, maximum:Integer";
-    }
-
-    @RequestMapping(value = "/random", method = RequestMethod.POST)
-    public RandomResult random(@RequestParam(value="minimum", defaultValue="0") Integer minimum, @RequestParam(value="maximum", defaultValue="100") Integer maximum) throws InputValidationException {
+    public RandomResult random(@RequestParam(value="minimum", defaultValue="0") Integer minimum,
+                               @RequestParam(value="maximum", defaultValue="100") Integer maximum) throws InputValidationException {
         return new RandomResult(minimum, maximum);
     }
 }
