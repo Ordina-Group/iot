@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 /**
  * Custom exception to throw when the input validation failed!
  */
+//TODO: Implement a way to return the actual exception body/message instead of giving a static reason!
 @ResponseStatus(code = HttpStatus.BAD_REQUEST, value = HttpStatus.BAD_REQUEST, reason = "Validation for the given parameters failed!")
 public class InputValidationException extends Exception {
 
