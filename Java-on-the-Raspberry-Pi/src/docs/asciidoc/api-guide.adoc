@@ -20,3 +20,8 @@ include::{snippets}/random/http-request.adoc[]
 include::{snippets}/random/response-fields.adoc[]
 
 include::{snippets}/random/http-response.adoc[]
+
+[[Pulse]]
+= Pulse
+
+Pulses output pin 4 for one whole second.

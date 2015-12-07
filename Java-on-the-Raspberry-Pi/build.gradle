@@ -1,6 +1,7 @@
 buildscript {
     ext {
-        springBootVersion = '1.3.0.RELEASE'
+        springBootVersion   = '1.3.0.RELEASE'
+        pi4jVersion         = 1.0
     }
     repositories {
         mavenCentral()
@@ -44,6 +45,7 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-thymeleaf')
     compile('org.springframework.boot:spring-boot-starter-web')
     compile("org.springframework.boot:spring-boot-starter-undertow")
+    compile("com.pi4j:pi4j-core:1.0")
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
     testCompile("org.springframework.restdocs:spring-restdocs-mockmvc")

@@ -68,4 +68,9 @@ public class ApiDocumentation {
                 )));
     }
 
+    //TODO: For this test to work, RaspberryBoard chould be mocked (because it will only work when a it is ran on a raspberry pi!)
+    /*Test
+    public void pulse() throws Exception {
+        this.mockMvc.perform(get("/pulse")).andExpect(status().isOk()).andDo(document("pulse"));
+    }*/
 }
