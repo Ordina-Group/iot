@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 
 /**
- *
+ * Provides GPIO access.
  */
 @Component
 @Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)

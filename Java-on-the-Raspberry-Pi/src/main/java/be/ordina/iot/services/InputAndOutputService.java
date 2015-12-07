@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * This service provides some endpoints to experiment with GPIO.
  */
 @RestController
-public class GpioService {
+public class InputAndOutputService {
 
     @Autowired
     private RaspberryBoard board;
