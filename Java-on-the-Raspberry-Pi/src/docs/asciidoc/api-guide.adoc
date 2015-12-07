@@ -25,3 +25,18 @@ include::{snippets}/random/http-response.adoc[]
 = Pulse
 
 Pulses output pin 4 for one whole second.
+
+[source,http]
+----
+GET /pulse HTTP/1.1
+Accept: application/json
+Host: localhost
+
+----
+
+[source,http]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+Content-Length: 0
+----
